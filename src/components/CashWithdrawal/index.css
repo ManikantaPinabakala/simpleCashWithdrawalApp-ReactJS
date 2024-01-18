@@ -1,0 +1,79 @@
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-bg-container {
+  background-color: #150b3e;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+}
+
+.profile-details-container {
+  display: flex;
+  margin: 10px 0;
+}
+
+.initial-container {
+  padding: 0 20px;
+  border-radius: 30px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  margin-right: 15px;
+}
+
+.username {
+  color: #d4d2db;
+}
+
+.balance-section-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.balance-text {
+  color: #585076;
+  font-size: 18px;
+}
+
+.total-amount {
+  color: #d4d2db;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.total-rupees-text {
+  color: #585076;
+  font-size: 14px;
+}
+
+.withdraw-text {
+  color: #d4d2db;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.instruction {
+  color: #585076;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.denomination-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
